@@ -36,7 +36,7 @@ main{
     transform: translate(-50%, -50%);
 
     height: 627px;
-    width: 311px;
+    width: 315px;
 
     background: url(../imagens/frame-iphone.png) center center no-repeat fixed;
 
@@ -49,5 +49,34 @@ main{
     left: 22px;
     width: 269px;
     height: 471px;
+
+}
+
+
+
+#redesSociais{
+
+    text-align: right;
+
+}
+
+#redesSociais > a > img{
+
+    width: 50px;
+
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+
+    box-sizing: border-box;
+
+}
+
+#redesSociais > a > img:hover{
+
+    border: solid 2px rgba(255, 255, 255, 0.603);
+    transform: translate(-7px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.493);
+    transition: transform 0.5s;
 
 }
